@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
   ticker.innerHTML += tickerPage.outerHTML;
 });
 
+
 // Tab navigation
 document.querySelectorAll('.nav-item').forEach(item => {
   item.addEventListener('click', () => {
