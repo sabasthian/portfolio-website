@@ -72,8 +72,8 @@ nav .wrapper {
 .geometric-card {
   background: white;
   padding: 50px 40px;
-  max-width: 500px;
   position: relative;
+  height: 300px;
   overflow: hidden;
 }
 
@@ -84,7 +84,7 @@ nav .wrapper {
   right: 0;
   width: 40%;
   height: 100%;
-  background: #f5f5f5;
+  background: #dfbdbd;
   z-index: 0;
   transform: skewX(-15deg);
 }
@@ -110,7 +110,7 @@ nav .wrapper {
 
 .motto {
   font-family: 'Courier New', monospace;
-  color: #666;
+  color: #055707e8;
   margin-top: 20px;
   padding-left: 15px;
   position: relative;
@@ -189,6 +189,7 @@ nav .wrapper {
   padding: 0;
   margin-top: 0;
 }
+
 .footer-container {
   display: flex;
   width: 100%;
@@ -198,13 +199,6 @@ nav .wrapper {
   padding: 0px 20px;
   flex-wrap: wrap;
   gap: 20px;
-}
-
-.footer-botom {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
 }
 
 .footer-section {
@@ -237,35 +231,11 @@ nav .wrapper {
   transition: color 0.3s;
 }
 
-.footer-about li:hover {
-  color: #fff;
-}
-
-.share-button {
-  background-color: #1da1f2;
-  color: white;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.share-button:hover {
-  background-color: #1991db;
-}
-
-
-
 .terminal {
   color: #7EE787; /* Warna terminal */
   font-family: 'Courier New', monospace;
 }
 
-.comment {
-  color: #8B949E; /* Warna komentar kode */
-  font-style: italic;
-}
 
 .cta-link {
   color: #58A6FF;
@@ -279,6 +249,12 @@ nav .wrapper {
 
 }
 
+.footer-botom{
+  background-color: #2a2a2a;
+  display: flex;
+  color: white;
+  justify-content: center;
+}
 /* ===== RESPONSIVE DESIGN ===== */
 @media (max-width: 768px) {
   
